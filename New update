@@ -1,0 +1,76 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/obeseinsect/roblox/main/Ui%20Libraries/Elerium.lua'))()
+local Window = Library:AddWindow("Kallij", {
+    main_color = Color3.fromRGB(128, 0, 0),
+    min_size = Vector2.new(450, 400),
+    can_resize = false, -- true or false
+})
+
+local FeaturesTab = Window:AddTab("tab 1") -- Name of tab
+FeaturesTab:Show() -- shows the tab
+
+FeaturesTab:AddButton("KALIJ LOCK PAID", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/Bro-why-im-keep-finding-/main/AAAAAAAAAAAAA"))()
+end)
+
+FeaturesTab:AddButton("rightclick", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+end)
+
+FeaturesTab:AddButton("kj Camlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/KJ-CAMLOCKTOOL-/main/Camlock"))()
+end)
+
+FeaturesTab:AddButton("tpwalk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Tpwalk%20V4%20%5B%20BETA%20%5D.lua", true))()
+end)
+
+FeaturesTab:AddButton("slient aim blue", function()
+    getgenv().Silent = {
+        Settings = {
+            Enabled = true,
+            AimPart = "LowerTorso",
+            Prediction = 0.144627,
+            WallCheck = true,
+            Visualize = true,
+            AutoPrediction = false,
+        },
+        FOV = {
+            Enabled = true,
+            Size = 30,
+            Filled = false,
+            Thickness = 0.66,
+            Transparency = 0.9,
+            Color = Color3.fromRGB(0, 0, 255),
+        },
+    }
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x/main/Source", true))()
+end)
+
+FeaturesTab:AddButton("adonis bypass", function()
+    for k,v in pairs(getgc(true)) do if pcall(function() return rawget(v,"indexInstance") end) and type(rawget(v,"indexInstance")) == "table" and (rawget(v,"indexInstance"))[1] == "kick" then v.tvk = {"kick",function() return game.Workspace:WaitForChild("") end} end end
+end)
+
+FeaturesTab:AddButton("camlock target strafe", function()
+    ScriptSettings = {
+        Enabled = true,
+        Prediction = 0.1433,
+        HitscanPriority = "HumanoidRootPart",
+        FOV = 100,
+        Scan = true,
+        JumpOffset = 0,
+        TargetStrafeSettings = {
+            Enabled = true,
+            GiveTool = true,
+            Speed = 5,
+            Height = 4,
+            Distance = 7
+        },
+        CameraLock = {
+            Enabled = true,
+            Smoothing = 0.5
+        }
+    }
+
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1acebfeec4fb31431a601eb.lua"))()
+end)
+
